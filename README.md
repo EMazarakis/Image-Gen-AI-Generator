@@ -30,3 +30,16 @@ You need to provide input to the program through the GUI as follows:
 3. Number of Images: Select the number of images to generate, ranging from 1 to 10, in a single API call.
 4. Choose Save Directory: Select the directory where you would like to save the generated images.
 5. Generate Images: Click the button to begin generating the images
+
+
+![App_Gui](https://github.com/EMazarakis/Image-Gen-AI-Generator/blob/main/Images/000.GUI_for_app.PNG)
+
+
+## Make Python script executable
+After you create your python script you can make it executable following the step-by-step guide. 
+1. First, you need to install PyInstaller.
+   > pip install pyinstaller
+2. Then you have to run the following command in the cmd:
+  > pyinstaller --noconsole --onefile  path_to_your_script_name.py
+  > noconsole: Suppresses the command prompt window.
+  > onefile: Packages everything into a single executable file.
