@@ -13,10 +13,13 @@ This article showcases a Python script that utilizes the OpenAI API to interact 
 
 With this setup, you can easily create a standalone application for generating and saving images, bypassing the need to work directly in the command line. This approach is perfect for those seeking a user-friendly solution to experiment with generative AI capabilities.
 
-NOTE Two modifications are required in the Python script for proper execution:
+> [!IMPORTANT]
+> Two modifications are required in the Python script for proper execution:
 
+```python
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY", "paste_the_API_key_that_you_obtained_from_the_OpenAI_website"))
 default_image_dir = "specify_the_directory_path_where_the_generated_images_will_be_stored"
+```
 
 ## Graphical User Interface (GUI) of Python Application
 
