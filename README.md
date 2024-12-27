@@ -41,5 +41,6 @@ After you create your python script you can make it executable following the ste
    > pip install pyinstaller
 2. Then you have to run the following command in the cmd:
   > pyinstaller --noconsole --onefile  path_to_your_script_name.py
+
    noconsole: Suppresses the command prompt window.
    onefile: Packages everything into a single executable file.
